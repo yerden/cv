@@ -3,75 +3,112 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Your Resume in Markdown
+title: Yerden Zhumabekov
 description-meta: 'This is the meta description for the HTML file, and one day the PDF file, for better SEO?'
 keywords:
-  - 'php'
-  - 'mysql'
+  - 'c'
+  - 'go'
   - 'linux'
 author:
-- I am the author
-subject: 'Subject'
+- Yerden Zhumabekov
+subject: 'CV'
 ---
-###### [[example.com](https://example.com)] . [ me@example.com] . [ 123 456 7890 ]
+###### Yerden Zhumabekov
+###### [[github.com/yerden](https://github.com/yerden)] . [ yerden.zhumabekov@gmail.com] . [ +7 701 7707742 ]
 
-### This is where you have your statement, that describes who you are and what you're looking for. Hopefully it's not cliche and it stands out in a good way
+### Summary
+
+Sofware Engineer in Packet Processing with a history of successful projects in Kazakhstan major telecom operators. Skilled in Linux, network programming, C, DPDK, Go/Gopacket.
+
+Also participated in a number of Information Security related projects, e.g. KZ-CERT inception/coordination, ccTLD failover system, ISO 27001 etc.Sofware Engineer in Packet Processing with a history of successful projects in Kazakhstan major telecom operators. Also participated in a number of Information Security related projects, e.g. KZ-CERT inception/coordination, ccTLD failover system, ISO 27001 etc.
+
 
 ## Skills
 
 ```programming```
+```networks```
 ```devops```
 ```databases```
+```mq```
 ```containers```
 ```linux systems administration```
-```webservers```
-```project management```
 ```system architecture & design```
-```entrepreneurship```
 ```load/stress testing```
-```WordPress```
 
-**Programming**: Lua, Haskell, Erlang, Go, Javascript
-**Databases**: MySQL, Postgres, sqlite, SQL Server, Oracle, Pick
-**Linux**: Gentoo, Alpine, CentOS, Ubuntu, Debian
-**DevOps**: Ansible, Chef, Kubernetes, etc.
+* **Programming**: C, Go, DPDK, [Gopacket](https://github.com/google/gopacket).
+* **Databases**: Clickhouse, PostgreSQL.
+* **MQ**: RabbitMQ, Kafka, ZeroMQ.
+* **Linux**: RedHat (Rocky Linux, CentOS), Debian (Ubuntu, Mint), Arch (Manjaro).
+* **DevOps**: Docker, Gitlab CI/CD etc.
 
 ## Experience
 
-### CEO and Founder, Pied Piper
+### Team Leader, Senior Software Engineer.
 
-start-date-end-date, City, State and remote
+2018-now, Astana, Kazakhstan, [7g.team](https://7g.team).
 
-- Things you did/do here
-- More things that you do here.
+- Design and implementation of Lawful Interception (LI) system operating at multi-100G scale.
+  - Traffic capturing.
+  - Protocol parsing, data export to Kafka.
+  - Data warehousing to Clickhouse using dedicated service.
+- Implemented a number of internal systems for live traffic enrichment using data
+  sources from mobile and fixed-line operators (GTP-C, RADIUS, Netflow/IPFIX, etc.)
+- Supervised (from a technical standpoint) a number of integration projects with
+  third-party systems.
+- Implemented [`yerden/go-dpdk`](https://github.com/yerden/go-dpdk) bindings packages to use DPDK in Go.
+- Implemented [`yerden/go-snf`](https://github.com/yerden/go-snf) bindings packages to use Myricom SNF in Go.
+- Technical consultations and training for company's staff.
 
-**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
+*Technologies used*: Linux, C, Go, DPDK, Kafka, Clickhouse, ZeroMQ, Prometheus/Grafana.
 
-### Senior Software Architect, Hooli
+### Team Leader, Information Security Research Lab
 
-2010-2016, San Francisco, CA
+2012-2017, Astana, Kazakhstan, [State Technical Service](https://sts.kz).
 
-- This is the job you had before your latest job
-- Did you do anything that wasn't part of your job description, but you excelled at?
+- Design and prototyping packet processing solutions for government agencies.
+- Researching security threats (DDoS etc).
 
-**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
+*Technologies used*: Linux, C, Go, DPDK.
+
+### Team Leader, KZ-CERT.
+
+2008-2017, Astana, Kazakhstan, [State Technical Service](https://sts.kz), [KZ-CERT](https://cert.gov.kz).
+
+- KZ-CERT inception.
+- Coordination of cybersecurity response in Kazakhstan.
+- International cooperation with foreign CERTs and forums (FIRST, ENISA etc).
+
+### Deputy Head, Information Security Monitoring Center
+
+2006-2008, Astana, Kazakhstan, [NITEC](https://nitec.kz).
+
+- E-Government infrastructure information security monitoring.
+- Enforcing information security policies.
+
+### IT expert.
+
+2004-2006, Petropavlovsk, Kazakhstan, [NITEC](https://nitec.kz).
+
+- IT supervisor.
+- System administration.
+
+*Technologies used*: Windows, Linux servers etc.
 
 ## Awards & Recognition
 
-- Winner TechCrunch Disrupt 2001
-- People Magazine's sexiest man alive at 123 My Address, MyCity, TX
+- Recognition Award from Ministry of Digital Development, Innovations and Aerospace Industry of the Republic of Kazakhstan.
+- A number of other industry awards in Kazakhstan.
 
 ## Projects
 
-**[*Personal Blog*](http://luther.io)** (2021-present)
-
-- Authored a series of articles covering a wide variety of topics and tools related to technology like PHP, WordPress, Ruby, Linux, Docker, and Privacy.
+- Contributed to a number of projects on Github and DPDK.
+- [`go-dpdk`](https://github.com/yerden/go-dpdk).
+- [`go-snf`](https://github.com/yerden/go-snf).
 
 ## Education
 
-### Masters in BS, Example University
+### Mathematics Specialist, North Kazakhstan State University, 2000-2004.
 
-- 4.0 GPA
-- Deans List
-- Member of xyz club, etc.
-- I didn't really go to college so I don't know what you would put here.
+- Information Technologies Faculty, graduated with honours.
+- Math Olympiades winner (2002, 2003).
+- Best Graduate of the Faculty.
