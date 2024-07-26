@@ -20,7 +20,8 @@ subject: 'CV'
 
 Sofware Engineer in Packet Processing with a history of successful projects in Kazakhstan major telecom operators. Skilled in Linux, network programming, C, DPDK, Go/Gopacket.
 
-Also participated in a number of Information Security related projects, e.g. KZ-CERT inception/coordination, ccTLD failover system, ISO 27001 etc.Sofware Engineer in Packet Processing with a history of successful projects in Kazakhstan major telecom operators. Also participated in a number of Information Security related projects, e.g. KZ-CERT inception/coordination, ccTLD failover system, ISO 27001 etc.
+Projects include Lawful Interception system design and implementation, KZ-CERT
+inception/coordination, ccTLD failover system etc.
 
 
 ## Skills
